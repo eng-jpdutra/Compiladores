@@ -1,0 +1,76 @@
+
+>>>>> Vídeo Aula 01
+
+	Nesta primeira aula foram explorados os conceitos básicos da construção de compiladores.
+
+- O que é um compilador?
+	"Um compilador é um programa que recebe um outro programa codificado em uma determinada linguagem de 
+programação (a linguagem fonte) e o traduz para um programa equivalente em uma linguagem objeto."
+
+- O principal objetivo de um compilador é processar uma linguagem com a finalidade de produzir uma entrada e saída.
+	- A entrada colocada em um compilador é uma linguagem de programação;
+	- A saída é a linguagem de máquina daquele código;
+	- A linguagem de máquina é a forma que o computador consegue entrender aquilo que lhe é instruído.
+
+- Linguagem de máquina é difícil de se programar, por isso dos compiladores.
+
+
+	Foram exploradas também as diferenças entre linguagens compiladas e interpretadas.
+
+- Linguagem compilada é aquela em que o código fonte do programa passa por um processo chamado compilação, em que
+este código é traduzido pelo compilador para uma linguagem objeto que permite que o processador execute-o, sem a 
+necessidade do código fonte. Neste modelo, todo o código fonte é compilado em um primeiro momento, para que em 
+seguida o resultado (código objeto) seja executado.
+
+- Linguagem interpretada é aquela em que o código fonte é executado pelo interpretador, que em seguida é executado
+pelo processador; neste modelo, a interpretação ocorre quando junto ao uso do código, linha por linha; ou seja, o 
+programa interpreta uma linha do código fonte e em seguida executa a interpretação.
+
+
+	Também foram explicadas as 3 fases de um compilador. São elas:
+
+- Análise Léxica: nesta fase, o compilador lê os caracteres e os agrupa em sequências significativas, também
+conhecidas como lexemas; para cada lexema existente, atribui-se um token relacionado a ele.
+
+- Análise Sintática: neste momento, o compilador analisa o fluxo de tokens e compara a estrututa gramatical deste
+fluxo com a gramática formal da linguagem.
+
+- Análise Semântica: aqui, o compilador reuni informações sobre tipos de dados, armazenamento na árvore de sintaxe
+ou na tabela de símbolos, verifica a consistência dos tipos de dados.
+
+--------------------------------------------------------------------------------------------------------------------
+>>>>> Vídeo Aula 02
+
+
+	Nesta vídeo aula, o professor aprofunda explicações sobre o análisador léxico. Os principais conceitos foram
+explanados.
+
+- Lexemas: são sequências de caracteres no programa fonte.
+
+- Padrões: são as classes dos lexemas; com estas classes, podemos padronizar a maneira como os lexemas são escritos,
+facilitando na hora de identificá-los.
+
+- Tokens: são as unidades léxicas correspondentes aos lexemas; normalmente, os tokens possuem dois campos: o tipo do
+token e o seu valor, caso seja uma variável.
+
+
+	Também foram expostos alguns casos de erros que parecem ser léxicos, porém não são possíveis de detectar 
+apenas pelo analisador léxico.
+
+--------------------------------------------------------------------------------------------------------------------
+>>>>> Vídeo Aulas 03 e 04
+
+
+	Nesta vídeo aula, iniciamos um projeto em Java de uma compilador capaz de executar programas da linguagem
+ALGUMA.
+	Este projeto é chamado AlgumaLex, e tem como foco neste primeiro a criação de um analisador léxico.
+	Foram definidos todos os tokens que perticiparão do projeto.
+
+
+	Alguns pontos Importantes:
+
+- AlgumaLexico.java: Classe reconhecedora de tokens, ignorando os espaços em branco.
+
+- O professor mostra AFD's que representam o reconhecimento da sequência de caracteres de uma linguagem.
+
+- Ferramento Antlr, um gerador de parsers baseado em Java.
