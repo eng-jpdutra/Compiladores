@@ -1,0 +1,32 @@
+
+>>>>> Vídeo Aula 05
+
+	Iniciamos os estudos sobre análise sintática. Definiu-se vacabulário, grammática e as gramáticas livres de 
+contexto.
+
+	Uma gramática é definida por uma quadrupla (V, T, P, S), onde:
+	
+		V = Conjunto de Variáveis
+		T = Conjunto de Terminais
+		P = Conjunto de Produção
+		S = Símbolo Inicial
+
+	Também falou-se sobre o conceito de derivação mais a esquerda e mais a direita, utilizando buffers como exemplo.
+	Foram utilizadas 3 técnicas para tratamento da ambiguidade, outro conceito abordado. Ambiguidade ocorre quando
+a linguagem ignora os espaços em branco. Porém, nem sempre é possível eliminar a ambiguidade.
+
+
+
+>>>>> Vídeo Aula 06 07 08 09
+
+	Análise sintática descendente cria derivação mais a esquerda da cadeia, onde os tokens são lidos da esquerda
+para direita
+	Utilizamos a estrutura de dados pilha para implementarmos a análise sintática lr.
+	Aprendemos o conceito de gancho ou handle.
+	Aulas mais focadas no desenvolvimento do analisador sintático. Criado em Java with Ant com ajuda do Antlr 
+e Maven.
+	As regras léxicas e sintáticas são definidas no arquivo Alguma.g4. O Netbeans automaticamente constroi o
+os arquivos lexer e parser da linguagem proposta.
+
+	O Antlr é uma ferramenta que facilita muito. Sem ele, é quase impossível desenvolver um compilador usando Java
+na "unha".
