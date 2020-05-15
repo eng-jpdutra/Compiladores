@@ -1,0 +1,44 @@
+
+>>>>> Aula 10
+
+	* Revisão da Estrutura de um Compilador
+
+		- Análise (front-end)
+
+			Quebra o programa em partes, impõe uma estrutura gramatical, cria uma representação intermediária,
+		detecta e reporta erros além da criação da tabela de símbolos.
+
+		- Síntese (back-end)
+
+			Constroi o programa objeto com base na representação intermediária e na tabela de símbolos.
+
+	
+	* Fases de um Compilador
+
+		Analisador Léxico -> Analisador Sintático -> Analisador Semântico - Gerador de Código Intermediário -> Gerador de Código
+
+
+	* Análise Semântica
+
+		Avalia a consistência do código levando em consideração a definição da linguagem. Nesta parte, coleta-se de informações
+	sobre tipos e as armazena na arvore léxica ou sintática.
+
+
+	* Análise Sintática Acendente
+
+		-    Vantagens: poderosa, gramáticas simples e elegantes além de ser eficiente
+		- Desvantagens: manipulação complexa da tabla sintática, construção trabalhosa
+
+>>>>> Aula 11
+
+	* Análise Sintática Descendente
+
+		-    Vantagens: facilidade de escrita de regras, facilidade no semântico, facilidade na depuração, excelente desempenho
+		- Desvantagens: recursão a esquerda
+	
+
+	* Apresentação da Tabela de Símbolos
+
+		- Sensitividade ao Contexto
+		- Compilador consegue lembrar dos detalhes dos nomes
+		- Indispensável para detectar erros semânticos
