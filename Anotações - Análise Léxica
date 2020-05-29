@@ -38,7 +38,7 @@ fluxo com a gramática formal da linguagem.
 - Análise Semântica: aqui, o compilador reuni informações sobre tipos de dados, armazenamento na árvore de sintaxe
 ou na tabela de símbolos, verifica a consistência dos tipos de dados.
 
---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 >>>>> Vídeo Aula 02
 
 
@@ -57,7 +57,7 @@ token e o seu valor, caso seja uma variável.
 	Também foram expostos alguns casos de erros que parecem ser léxicos, porém não são possíveis de detectar 
 apenas pelo analisador léxico.
 
---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 >>>>> Vídeo Aulas 03 e 04
 
 
