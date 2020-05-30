@@ -1,0 +1,30 @@
+>>>>> Aula 12
+
+	* O que um gerador de código?
+
+		- Momento que o programa-fonte (estático) é transformado em código-alvo (executável).
+
+		- Etapa mais complexa, porque depende:
+			- Características da linguagem
+			- Informações detalhadas da arquitetura-alvo
+			- Estrutura do ambiente de execução
+			- Ssitema operacional da máquina-alvo
+
+		- Envolve também tentativas de otimizar ou melhorar a velocidade e/ou tamanho do código
+
+
+	* Gerador de Código Intermediário
+
+		- Etapa em qu o compilador gera uma interpretação intermediária explícita para o programa fonte
+
+		- Relação Código Intermedário e Final
+			- O código intermediário não específica detalhes (os registradores a serem utilizados, endereços de memória a
+serem referenciados).
+
+
+
+>>>>> Aula 13
+
+	* Apresentação do p-code, ferramenta que serve para rodar códigos de baixo nível.
+
+	* Execução de uma demonstração do p-code reutilizando alguns trechos de código da aula anterior.
